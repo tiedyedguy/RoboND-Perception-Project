@@ -27,7 +27,7 @@ to mess with this one some more.
 
 Here is what the cloud looked like after the pipeline:
 
-
+![After Pipeline1](https://github.com/tiedyedguy/RoboND-Perception-Project/raw/master/images/afterpipeline1.png)
 
 #### 2. Complete Exercise 2 steps: Pipeline including clustering for segmentation implemented.  
 
@@ -36,13 +36,18 @@ I had to mess around with the values a lot more until I got things that worked.
 
 Here is what the cloud looked like after the pipeline:
 
+![After Pipeline2](https://github.com/tiedyedguy/RoboND-Perception-Project/raw/master/images/afterpipeline2.png)
+
 #### 3. Complete Exercise 3 Steps.  Features extracted and SVM trained.  Object recognition implemented.
 
 Here are the settings I used to create my SVM:
 
 Pictures: 500
+
 Bins (Color & Normals): 64
+
 RGB vs HST: HST
+
 Total Features: 4000
 
 Here's the output of the training:
@@ -51,6 +56,7 @@ Here's the output of the training:
 
 Here is the object and their markers:
 
+![After Pipeline3](https://github.com/tiedyedguy/RoboND-Perception-Project/raw/master/images/afterpipeline3.png)
 
 
 ### Pick and Place Setup
@@ -61,17 +67,27 @@ First, the results:
 
 World 1 100%:
 
-YAML File:
+![World1](https://github.com/tiedyedguy/RoboND-Perception-Project/raw/master/images/world1.png)
+
+YAML File: [Link!](https://raw.githubusercontent.com/tiedyedguy/RoboND-Perception-Project/master/pr2_robot/scripts/output_1.yaml)
 
 World 2 100%:
 
-YAML File:
+![World2](https://github.com/tiedyedguy/RoboND-Perception-Project/raw/master/images/world2.png)
+
+YAML File: [Link!](https://raw.githubusercontent.com/tiedyedguy/RoboND-Perception-Project/master/pr2_robot/scripts/output_2.yaml)
 
 World 3 100%:
 
-YAML File:
+![World3](https://github.com/tiedyedguy/RoboND-Perception-Project/raw/master/images/world3.png)
 
+YAML File: [Link!](https://raw.githubusercontent.com/tiedyedguy/RoboND-Perception-Project/master/pr2_robot/scripts/output_3.yaml)
 
+Now, my thoughts:
+
+The exercises took us 80% of the way, which was a nice way of handling this project.  Taking my exercise code and moving
+it to the project was easy.  Getting the yaml file output was fun and easy also.  The only major challenge I found was upping
+the number of features from 200 to 4000 in the training.  This got me 100% of objects in all worlds.
 
 
 
