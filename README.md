@@ -52,7 +52,9 @@ Total Features: 4000
 
 Here's the output of the training:
 
-
+![Training](https://github.com/tiedyedguy/RoboND-Perception-Project/raw/master/images/training.png)
+![Figure_1](https://github.com/tiedyedguy/RoboND-Perception-Project/raw/master/images/figure_1.png)
+![Figure_2](https://github.com/tiedyedguy/RoboND-Perception-Project/raw/master/images/figure_2.png)
 
 Here is the object and their markers:
 
