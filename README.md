@@ -7,6 +7,10 @@ You're reading it!
 ### Exercise 1, 2 and 3 pipeline implemented
 #### 1. Complete Exercise 1 steps. Pipeline for filtering and RANSAC plane fitting implemented.
 
+[Here is a link to my python script for all exercises & the project.](https://github.com/tiedyedguy/RoboND-Perception-Project/blob/master/pr2_robot/scripts/project_template.py)
+
+
+
 My pipeline is as follows:
 
 Image -> Voxel Grid Downsampling -> Passthrough over Z-Axis -> Passthrough over X-Axis -> Outlier Filter ->
