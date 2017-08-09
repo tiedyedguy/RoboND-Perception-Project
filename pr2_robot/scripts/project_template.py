@@ -262,7 +262,7 @@ def pr2_mover(object_list):
         counter += 1
     
     # Output your request parameters into output yaml file
-    #send_to_yaml("output_" + str(TEST_SCENE_NUM.data) + ".yaml",output_yaml)
+    send_to_yaml("output_" + str(TEST_SCENE_NUM.data) + ".yaml",output_yaml)
 
 
 if __name__ == '__main__':
